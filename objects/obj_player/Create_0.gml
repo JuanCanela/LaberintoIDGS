@@ -37,3 +37,28 @@ powerup_active = false;
 /// @DnDArgument : "expr" "move_speed"
 /// @DnDArgument : "var" "default_move_speed"
 default_move_speed = move_speed;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5FD52100
+/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "var" "shield_energy"
+shield_energy = 100;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 4C3CBAD4
+/// @DnDArgument : "code" "archivo			= "Coins.INI";$(13_10)$(13_10)existe			= false;$(13_10)$(13_10)creado			= noone;$(13_10)$(13_10)$(13_10)lectura			= false;$(13_10)valores_lectura = [];$(13_10)$(13_10)modificar		= "No se ha ejecutado ninguna accion de modificado.";$(13_10)$(13_10)borrar			= noone;$(13_10)"
+archivo			= "Coins.INI";
+
+existe			= false;
+
+creado			= noone;
+
+
+lectura			= false;
+valores_lectura = [];
+
+modificar		= "No se ha ejecutado ninguna accion de modificado.";
+
+borrar			= noone;

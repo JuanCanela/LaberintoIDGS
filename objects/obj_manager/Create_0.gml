@@ -22,3 +22,10 @@ audio_stop_sound(snd_music_game);
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "snd_music_game"
 audio_play_sound(snd_music_game, 0, 1);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1DDE3B61
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "pause"
+pause = false;
