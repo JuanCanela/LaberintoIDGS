@@ -45,11 +45,11 @@ if(l4CC419CD_0)
 	/// @DnDArgument : "x" "20"
 	/// @DnDArgument : "y" "20"
 	/// @DnDArgument : "sprite" "spr_hud_heart"
-	/// @DnDArgument : "number" "obj_player.hearts"
+	/// @DnDArgument : "number" "global.hearts"
 	/// @DnDSaveInfo : "sprite" "spr_hud_heart"
 	var l0190EA2B_0 = sprite_get_width(spr_hud_heart);
 	var l0190EA2B_1 = 0;
-	for(var l0190EA2B_2 = obj_player.hearts; l0190EA2B_2 > 0; --l0190EA2B_2) {
+	for(var l0190EA2B_2 = global.hearts; l0190EA2B_2 > 0; --l0190EA2B_2) {
 		draw_sprite(spr_hud_heart, 0, 20 + l0190EA2B_1, 20);
 		l0190EA2B_1 += l0190EA2B_0;
 	}

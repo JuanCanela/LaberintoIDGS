@@ -1,4 +1,5 @@
 {
+  "conversionMode": 0,
   "compression": 0,
   "volume": 0.75,
   "preload": false,
@@ -10,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_music_menu.wav",
-  "duration": 38.4,
+  "soundFile": "snd_music_menu.mp3",
+  "duration": 195.08244,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

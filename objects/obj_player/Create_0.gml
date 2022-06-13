@@ -1,13 +1,13 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 5340F96B
+/// @DnDHash : 7E39BA31
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "4"
-/// @DnDArgument : "expr_1" "max_hearts"
-/// @DnDArgument : "var" "max_hearts"
-/// @DnDArgument : "var_1" "hearts"
-max_hearts = 4;
-hearts = max_hearts;
+/// @DnDArgument : "value" "4"
+/// @DnDArgument : "value_1" "global.max_hearts"
+/// @DnDArgument : "var" "global.max_hearts"
+/// @DnDArgument : "var_1" "global.hearts"
+global.max_hearts = 4;
+global.hearts = global.max_hearts;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

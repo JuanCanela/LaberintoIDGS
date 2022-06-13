@@ -77,6 +77,6 @@ if(alarm[0] < 0)
 	/// @DnDParent : 1362B03B
 	/// @DnDArgument : "expr" "-1"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "hearts"
-	hearts += -1;
+	/// @DnDArgument : "var" "global.hearts"
+	global.hearts += -1;
 }

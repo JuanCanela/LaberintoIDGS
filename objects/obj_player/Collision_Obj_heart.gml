@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1E796551
-/// @DnDArgument : "var" "hearts"
+/// @DnDArgument : "var" "global.hearts"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "max_hearts"
-if(hearts < max_hearts)
+/// @DnDArgument : "value" "global.max_hearts"
+if(global.hearts < global.max_hearts)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -12,8 +12,8 @@ if(hearts < max_hearts)
 	/// @DnDParent : 1E796551
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "hearts"
-	hearts += 1;
+	/// @DnDArgument : "var" "global.hearts"
+	global.hearts += 1;
 
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1

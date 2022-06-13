@@ -6,9 +6,9 @@ speed = 0;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 113F2C35
-/// @DnDArgument : "var" "hearts"
+/// @DnDArgument : "var" "global.hearts"
 /// @DnDArgument : "op" "2"
-if(hearts > 0)
+if(global.hearts > 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
@@ -32,6 +32,15 @@ else
 	/// @DnDArgument : "objectid" "obj_player_defeated"
 	/// @DnDSaveInfo : "objectid" "obj_player_defeated"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_player_defeated);
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 18070929
+	/// @DnDParent : 1ED0E5DA
+	/// @DnDArgument : "code" "Nombre = "";$(13_10)Nombre = get_string("Escribe tu nombre" , "");$(13_10)guardar_archivo_honor(Nombre, obj_player.coins);$(13_10)"
+	Nombre = "";
+	Nombre = get_string("Escribe tu nombre" , "");
+	guardar_archivo_honor(Nombre, obj_player.coins);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
