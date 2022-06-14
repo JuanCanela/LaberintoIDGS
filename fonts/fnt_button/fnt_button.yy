@@ -4,7 +4,7 @@
   "interpreter": 0,
   "pointRounding": 0,
   "applyKerning": 0,
-  "fontName": "Arial CE",
+  "fontName": ".Diwan Kufi PUA",
   "styleName": "Regular",
   "size": 30.0,
   "bold": false,
