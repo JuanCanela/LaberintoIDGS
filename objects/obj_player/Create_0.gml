@@ -45,6 +45,13 @@ default_move_speed = move_speed;
 /// @DnDArgument : "var" "shield_energy"
 shield_energy = 100;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6EBB14CA
+/// @DnDArgument : "value" """"
+/// @DnDArgument : "var" "Nombre"
+global.Nombre = "";
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4C3CBAD4

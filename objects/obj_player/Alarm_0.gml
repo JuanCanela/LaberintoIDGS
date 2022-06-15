@@ -37,10 +37,10 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 18070929
 	/// @DnDParent : 1ED0E5DA
-	/// @DnDArgument : "code" "Nombre = "";$(13_10)Nombre = get_string("Escribe tu nombre" , "");$(13_10)guardar_archivo_honor(Nombre, obj_player.coins);$(13_10)"
-	Nombre = "";
-	Nombre = get_string("Escribe tu nombre" , "");
-	guardar_archivo_honor(Nombre, obj_player.coins);
+	/// @DnDArgument : "code" "global.Nombre = "";$(13_10)global.Nombre = get_string("Escribe tu nombre" , "");$(13_10)guardar_archivo_honor(global.Nombre, obj_player.coins);$(13_10)"
+	global.Nombre = "";
+	global.Nombre = get_string("Escribe tu nombre" , "");
+	guardar_archivo_honor(global.Nombre, obj_player.coins);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
